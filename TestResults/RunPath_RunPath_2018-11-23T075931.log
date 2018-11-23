@@ -1,0 +1,167 @@
+﻿2018-11-23T07:59:30.9018068+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-11-23T07:59:30.9028137+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-11-23T07:59:30.9028137+00:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\ramchander.telu\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-11-23T07:59:31.0613807+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\ramchander.telu\Documents\Visual Studio 2015\Projects\RunPath\RunPath\bin\Debug\RunPath.dll
+2018-11-23T07:59:31.0623782+00:00;VSTestExecutionThread;Info;Profile: RunPath
+2018-11-23T07:59:31.1242125+00:00;Thread#16;Info;starting test run
+2018-11-23T07:59:31.1361797+00:00;Thread#16;Info;Discovering target: Default
+2018-11-23T07:59:31.1371781+00:00;Thread#16;Info;Discovering tests from assembly: C:\Users\ramchander.telu\Documents\Visual Studio 2015\Projects\RunPath\RunPath\bin\Debug\RunPath.dll
+Appdomain Disposed
+Test Suite Dump
+#0: RunPath/RunPath - 
+#1: Default - 
+#2: RunPath - 
+#3: RestCountriesSearch - 
+#4: Able to see all the countries - TestAssembly:RunPath/Feature:RestCountriesSearch/Scenario:Able+to+see+all+the+countries
+#5: Able to search for a country by Name, India - TestAssembly:RunPath/Feature:RestCountriesSearch/Scenario:Able+to+search+for+a+country+by+Name%2c+India
+#6: Able to search for a country by Name, Ukraine - TestAssembly:RunPath/Feature:RestCountriesSearch/Scenario:Able+to+search+for+a+country+by+Name%2c+Ukraine
+#7: Able to search for a country by incorrect Name, London - TestAssembly:RunPath/Feature:RestCountriesSearch/Scenario:Able+to+search+for+a+country+by+incorrect+Name%2c+London
+#8: Able to search for a country by incorrect Name, Paris - TestAssembly:RunPath/Feature:RestCountriesSearch/Scenario:Able+to+search+for+a+country+by+incorrect+Name%2c+Paris
+#9: Able to search for a Captial City by Name, London - TestAssembly:RunPath/Feature:RestCountriesSearch/Scenario:Able+to+search+for+a+Captial+City+by+Name%2c+London
+#10: Able to search for a Captial City by Name, Paris - TestAssembly:RunPath/Feature:RestCountriesSearch/Scenario:Able+to+search+for+a+Captial+City+by+Name%2c+Paris
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for RunPath, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have the Rest countries service is up
+Thread#0:T:done: RestCountriesSearchSteps.GivenIHaveTheRestCountriesServiceIsUp() (0.0s)
+Thread#0:B:When I request for all countries
+Thread#0:T:done: RestCountriesSearchSteps.WhenIRequestForAllCountries() (2.1s)
+Thread#0:B:Then All the countries and their details  returned
+Thread#0:T:done: RestCountriesSearchSteps.ThenAllTheCountriesAndTheirDetailsReturned() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 2.5298629 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have the Rest countries service is up
+Thread#0:T:done: RestCountriesSearchSteps.GivenIHaveTheRestCountriesServiceIsUp() (0.0s)
+Thread#0:B:When I request for a country India
+Thread#0:T:done: RestCountriesSearchSteps.WhenIRequestForACountry("India") (0.3s)
+Thread#0:B:Then All countries with name India details in response
+Thread#0:T:done: RestCountriesSearchSteps.ThenIDetailsInResponse("India") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.3480886 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have the Rest countries service is up
+Thread#0:T:done: RestCountriesSearchSteps.GivenIHaveTheRestCountriesServiceIsUp() (0.0s)
+Thread#0:B:When I request for a country Ukraine
+Thread#0:T:done: RestCountriesSearchSteps.WhenIRequestForACountry("Ukraine") (0.3s)
+Thread#0:B:Then All countries with name Ukraine details in response
+Thread#0:T:done: RestCountriesSearchSteps.ThenIDetailsInResponse("Ukraine") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.2989255 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have the Rest countries service is up
+Thread#0:T:done: RestCountriesSearchSteps.GivenIHaveTheRestCountriesServiceIsUp() (0.0s)
+Thread#0:B:When I request for a incorrect country London
+Thread#0:T:done: RestCountriesSearchSteps.WhenIRequestForIncorrectCountry("London") (0.2s)
+Thread#0:B:Then No country with name London details in response
+Thread#0:T:done: RestCountriesSearchSteps.ThenNoCountryWithNameLondonDetailsInResponse("London") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.2257179 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given I have the Rest countries service is up
+Thread#0:T:done: RestCountriesSearchSteps.GivenIHaveTheRestCountriesServiceIsUp() (0.0s)
+Thread#0:B:When I request for a incorrect country Paris
+Thread#0:T:done: RestCountriesSearchSteps.WhenIRequestForIncorrectCountry("Paris") (0.3s)
+Thread#0:B:Then No country with name Paris details in response
+Thread#0:T:done: RestCountriesSearchSteps.ThenNoCountryWithNameLondonDetailsInResponse("Paris") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.2964107 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given I have the Rest countries service is up
+Thread#0:T:done: RestCountriesSearchSteps.GivenIHaveTheRestCountriesServiceIsUp() (0.0s)
+Thread#0:B:When I request for a capital city London
+Thread#0:T:done: RestCountriesSearchSteps.WhenIRequestForACapitalCity("London") (1.1s)
+Thread#0:B:Then All countries with capital city London details in response
+Thread#0:T:done: RestCountriesSearchSteps.ThenAllCountriesWithCapitalCityLondonDetailsInResponse("London") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #10 from normal test queue 
+Thread#0:Scheduler: considering testitem #10 for thread 0
+Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #10 for thread 0
+Thread#0:Scheduler: Test #10 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 1.1149168 seconds
+Thread#0: Test #10/0 is started on thread #0
+Thread#0:B:Given I have the Rest countries service is up
+Thread#0:T:done: RestCountriesSearchSteps.GivenIHaveTheRestCountriesServiceIsUp() (0.0s)
+Thread#0:B:When I request for a capital city Paris
+Thread#0:T:done: RestCountriesSearchSteps.WhenIRequestForACapitalCity("Paris") (0.2s)
+Thread#0:B:Then All countries with capital city Paris details in response
+Thread#0:T:done: RestCountriesSearchSteps.ThenAllCountriesWithCapitalCityLondonDetailsInResponse("Paris") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 0.2189322 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-11-23T07:59:36.3847905+00:00;Thread#16;Info;test run finished
+2018-11-23T07:59:36.3847905+00:00;Thread#16;Info;publishing test results
+2018-11-23T07:59:36.3847905+00:00;Thread#16;Info;test results published
+2018-11-23T07:59:36.3847905+00:00;Thread#16;Info;generating reports
+2018-11-23T07:59:36.4004150+00:00;Thread#16;Info;creating 1 report(s)
+2018-11-23T07:59:36.4004150+00:00;Thread#16;Info;generate Report ReportTemplate.cshtml
+2018-11-23T07:59:39.1792940+00:00;Thread#16;Info;reports generated
+Total: 7
+Succeeded: 7
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2018-11-23T07:59:39.1949138+00:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-11-23T07:59:39.1949138+00:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\ramchander.telu\Documents\Visual Studio 2015\Projects\RunPath\TestResults\RunPath_RunPath_2018-11-23T075931.html'
+2018-11-23T07:59:39.2105465+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\ramchander.telu\Documents\Visual%20Studio%202015\Projects\RunPath\TestResults\RunPath_RunPath_2018-11-23T075931.log
